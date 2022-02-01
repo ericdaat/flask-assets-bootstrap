@@ -9,6 +9,17 @@ app = Flask(__name__)
 assets = Environment(app)
 assets.url = app.static_url_path
 
+# JS files
+js = Bundle(
+    "assets/node_modules/jquery/dist/jquery.min.js",
+    "assets/node_modules/@popperjs/core/dist/umd/popper.min.js",
+    "assets/node_modules/bootstrap/dist/js/bootstrap.min.js",
+    filters="jsmin",
+    output="js/generated.js"
+)
+assets.register("js_all", js)
+
+# Scss files
 scss = Bundle(
     "assets/main.scss",  # 1. will read this scss file and generate a css file based on it
     filters="libsass",   # 2. using this filter: https://webassets.readthedocs.io/en/latest/builtin_filters.html#libsass

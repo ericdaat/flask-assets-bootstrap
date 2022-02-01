@@ -1,5 +1,6 @@
 *.pyc
 venv/
 application/static/.webassets-cache
-application/static/css/scss-generated.css
 application/static/assets/node_modules
+application/static/css/scss-generated.css
+application/static/js/generated.js
