@@ -80,7 +80,7 @@ templates with the following code:
 
 ``` html
 {% assets "scss_all" %}
-	<link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+    <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
 {% endassets %}
 ```
 
