@@ -35,8 +35,9 @@ flask run;  # localhost:5000
 ```
 
 The application should be running locally on
-port 5000: `http://localhost:5000`.
+[localhost:5000](http://localhost:5000) and will look like this:
 
+![screenshot](./screenshot.png)
 
 ## 3. What's going on ?
 
