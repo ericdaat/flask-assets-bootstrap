@@ -1,4 +1,4 @@
-# A minimal Flask application with Bootstrap Sass
+# A minimal Flask application with Bootstrap assets
 
 ## 1. Why this repository ?
 
