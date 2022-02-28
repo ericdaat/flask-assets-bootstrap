@@ -6,6 +6,8 @@ This repository is a starting point for everyone who wants to build
 a web application using Python Flask along with Bootstrap.
 Instead of [importing Bootstrap from the CDN](https://getbootstrap.com/docs/5.1/getting-started/introduction/#quick-start), I am [installing it with npm](https://getbootstrap.com/docs/5.1/getting-started/download/#npm) and use [Sass to customize it](https://getbootstrap.com/docs/5.1/customize/sass/).
 
+I wrote a more detailled tutorial about this project on my [personal blog](https://edaoud.com/blog/2022/02/07/flask-bootstrap-assets/).
+
 ## 2. Install
 
 First, clone this repository.
